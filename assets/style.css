@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Supermercado+One&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Supermercado One', cursive;
+  color: #eee;
+  background-color: #8a1f1b;
+  /* background-color: #48bd24; */
+}
+
+/* LAYOUT */
+header {
+  position: relative;
+  height: 260px;
+  border-bottom: 7px solid rgb(238, 238, 238);
+}
+
+main {
+  height: 485px;
+  color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.left {
+  width: 832px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.right {
+  width: 532px;
+  font-size: 36px;
+}
+
+/* ELEMENTS STYLE */
+h1 {
+  font-size: 62px;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.number {
+  background: #eee;
+  color: #333;
+  font-size: 60px;
+  width: 150px;
+  padding: 30px 30px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  border-radius: 15px;
+}
+
+.between {
+  font-size: 24px;
+  position: absolute;
+  top: 32px;
+  right: 32px;
+}
+
+.again {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+}
+
+.guess {
+  background: none;
+  border: 4px solid #eee;
+  font-family: inherit;
+  color: inherit;
+  font-size: 48px;
+  padding: 16px;
+  width: 180px;
+  text-align: center;
+  display: block;
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
+
+.btn {
+  border: none;
+  background-color: #eee;
+  color: #222;
+  font-size: 24px;
+  font-family: inherit;
+  padding: 24px 52px;
+  cursor: pointer;
+  border-radius: 18px;
+}
+
+.btn:hover {
+  background-color: #ccc;
+}
+
+.message {
+  margin-bottom: 35px;
+  height: 35px;
+}
+
+.label-score {
+  margin-bottom: 16px;
+}
+
+@media only screen and (max-width: 425px) {
+  .again {
+    transform: scale(0.8);
+  }
+
+  .between {
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 45px;
+  }
+
+  main {
+    flex-direction: column;
+    margin-top: 65px;
+  }
+
+  .right {
+    margin-left: 175px;
+  }
+  
+  .message {
+    margin-left: 40px;
+  }
+}
