@@ -1,6 +1,6 @@
 # Adivinha-número
 
-## Opa oi oi! Trago aqui um projeto que fiz visando aplicar e testar meus conhecimentos de manipulação da árvore DOM via JavaScript.
+## Opa oi oi! Trago aqui um projeto que fiz visando aplicar e testar meus conhecimentos de manipulação da árvore DOM via JavaScript. Você pode acessar o projeto <a target="_blank" href="https://gabezrodz.github.io/adivinha-numero/">clicando aqui!</a>
 <img src="assets/img/img-1.png" width="550px" alt="imagem-home">
 
 
