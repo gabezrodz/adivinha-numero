@@ -5,7 +5,7 @@
 
 
 
-    O jogo consiste em você tentar adivinhar o número no em com menos tentativas possíveis!
+O jogo consiste em você tentar adivinhar o número  com menos tentativas possíveis!
 
 ## 👨‍💻 Linguagens utilizadas:
 <table>
