@@ -49,4 +49,16 @@ document.querySelector('.check').addEventListener('click', function () {
       document.querySelector('.score').textContent = 0;
     }
   }
+
+  // Resetando a página
+  document.querySelector('.again').addEventListener('click', function () {
+    secretNumber = Math.trunc(Math.random() * 20) + 1;
+    score = 20;
+    displayMessage('Tente adivinhar...');
+    document.querySelector('.score').textContent = score;
+    document.querySelector('.number').textContent = '?';
+    document.querySelector('.guess').value = '';
+    document.querySelector('body').style.backgroundColor = '#8a1f1b';
+    document.querySelector('.number').style.width = '150px';
+  });
 });
