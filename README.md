@@ -8,13 +8,12 @@
 O jogo consiste em você tentar adivinhar o número  com menos tentativas possíveis!
 
 ## 👨‍💻 Linguagens utilizadas:
-<table>
-    <tbody>
-        <img align="center" alt="Gabez-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-        <img align="center" alt="Gabez-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-        <img align="center" alt="Gabez-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">  
-    </tbody>
-</table>
+<div style="display: inline_block"  ><br>
+    <img align="center" alt="Gabez-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+    <img align="center" alt="Gabez-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+    <img align="center" alt="Gabez-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">  
+</div>
+
 
 ## 📱 Dispositivos homologados:
 A aplicação opera nas seguintes dimensões de telas:
