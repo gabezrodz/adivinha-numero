@@ -124,10 +124,13 @@ h1 {
 @media only screen and (max-width: 425px) {
   .again {
     transform: scale(0.8);
+    top: 8px;
+    left: 0px;
   }
 
   .between {
     font-size: 16px;
+    
   }
 
   h1 {
@@ -140,10 +143,34 @@ h1 {
   }
 
   .right {
-    margin-left: 175px;
+    margin-left: 0px;
+    width: 380px;
+  }
+
+  .left{
+    width: 400px;
   }
   
   .message {
-    margin-left: 40px;
+    margin-left: 65px;
+  }
+}
+
+@media only screen and (max-width: 380px){
+  .again {
+    transform: scale(0.6);
+    position: absolute;
+    top: 8px;
+    left: -15px;
+
+  }
+
+  h1{
+    font-size: 40px;
+  }
+
+  .right{
+    margin-left: 60px;
+    font-size: 30px;
   }
 }
